@@ -22,13 +22,12 @@ return sayi1+sayi2;
 }
 console.log(add(2,6));
 console.log(add(2,4));
-let mult = function (sayi1,sayi2){  //Anonim bir fonksiyon oluşturduktan sonra bu 
-  //fonsksiyonu bir değişkene atadık
+let mult = function (sayi1,sayi2){  
  
-console.log(add(1,5)*sayi2*sayi1);
+console.log(add(sayi1,sayi2)*sayi2*sayi1);
 
 }
 
 
 
-mult(5,6)
+mult(2,3)
